@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Festejando Campo e Cidade</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #a8e6cf, #dcedc1);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #ffb347, #ffcc33);
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #4e342e;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .card h2 {
+      color: #388e3c;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #388e3c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌾 Festejando Campo e Cidade 🏙️</h1>
+    <p>Uma celebração da cultura, diversidade e união!</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180?text=Festa+na+Roça" alt="Festa no campo">
+      <h2>Festa no Campo</h2>
+      <p>Música caipira, fogueira, quadrilha e comidas típicas animam a vida rural.</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/300x180?text=Festa+Urbana" alt="Festa na cidade">
+      <h2>Festa na Cidade</h2>
+      <p>Shows, luzes e diversidade cultural no coração urbano do país.</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Festejando Campo e Cidade. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
